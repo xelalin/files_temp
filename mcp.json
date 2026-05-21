@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "vivado-mcp-server": {
+      "url": "http://127.0.0.1:18090/mcp",
+      "type": "streamableHttp",
+      "disabled": false,
+      "autoApprove": [
+        "vivado_cleanup",
+        "vivado_client_info",
+        "vivado_connect",
+        "vivado_doc_search",
+        "vivado_execute",
+        "vivado_feedback",
+        "vivado_history",
+        "vivado_list_sessions",
+        "vivado_log_messages",
+        "vivado_start",
+        "vivado_status",
+        "vivado_stop",
+        "vivado_todos"
+      ]
+    }
+  }
+}
