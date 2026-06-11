@@ -6,7 +6,8 @@
 - Vivado 2025.2 installed
 - Creating an account on GitHub (option for new user)
 - Download related packages (Vivado AI Assistant Extension & Example Designs) from  [AMD AI Assistant Early Access Secure Site](https://account.amd.com/en/member/vivado-ai-assistant-ea.html)
-![alt text](image.png) 
+
+![alt text](image.png)
 
 ## Step 1 :  Install the Vivado AI Assistant Extension
 - Download vivado-ai-extension-0.6.8.zip from the [Downloads](https://account.amd.com/en/member/vivado-ai-assistant-ea/getting-started/downloads.html) page and unzip it
@@ -62,3 +63,31 @@ After installing the extension, set the path to your Vivado executable:
 - In Claude Code Chat, Type: "How to configure NoC for optimal bandwidth?"
 
 ![alt text](image-10.png)
+
+## Step 8 (option) : Install the Cline with OpenRouter
+- VS Code -> Extension -> Cline
+- Install
+- Ctrl + Shift + p -> Developer: Reload Window
+
+![alt text](image-11.png)
+
+## Step 9 (option) : Setup the Cline with OpenRouter
+- Create an account at [openrouter.ai](https://openrouter.ai/)
+- Add credits and generate an API key at [openrouter.ai/settings/keys](https://openrouter.ai/settings/keys)
+- Configure your API key in [Cline](https://github.com/cline/cline?tab=readme-ov-file#use-any-api-and-model) — see their [OpenRouter integration guide](https://github.com/cline/cline?tab=readme-ov-file#use-any-api-and-model) for setup details
+
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
+
+## Step 10 (option) : Vivado MCP Configuration with Cline
+- Ctrl+Shift+P, Open mcp.jsom
+
+![alt text](image-15.png)
+
+## Step 11 (option) : Verify the Setup for Cline with OpenRouter
+- In Claude Code Chat -> prompt 
+- In Cline Chat, Type: "List the available MCP tools"
+- In Cline Chat, Type: "How to configure NoC for optimal bandwidth?"
+
+![alt text](image-16.png)
